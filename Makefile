@@ -4,6 +4,7 @@ SHELL=		bash
 
 all:		solution
 
+
 solution:	solution.cpp
 	$(CXX) $(CXXFLAGS) -o $@ $^
 
